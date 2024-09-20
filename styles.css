@@ -6,7 +6,7 @@ html, body {
 
 .background {
 
- background-color:#394371;
+ background-color: #394371;
  colour: blue ; /* Replace with your image path */
   background-size: cover; /* Ensures the image covers the screen */
   background-position: center; /* Centers the image */
@@ -26,6 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
 header .logo h1 {
     margin-left: 20px;}
@@ -36,3 +37,31 @@ header .logo h1 {
     
     .subtext p {margin-left: 20px;
     color: #c8c8c8}
+    
+    .button {
+  background-color:#5969b1;
+  border-style: solid;
+  border: #bfffff;
+  color:#c8c8c8 ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
+.navbar-nav .nav-link {
+  color: #a5a5a5;
+  text-decoration: none;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #c8c8c8;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
